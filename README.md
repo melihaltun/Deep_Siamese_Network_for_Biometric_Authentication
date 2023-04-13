@@ -5,6 +5,7 @@ This code performs biometric authentication using two palm images. One of the im
 
 ![image](https://user-images.githubusercontent.com/40482921/231610660-1283e705-2118-43a7-8b1f-f9ad89369b6d.png)
 
+The model is a deep Siamese neural network compiled and trained using Tensorflow and Keras.
 The model is trained with Sapienza University palm image dataset from Kaggle: 
 https://www.kaggle.com/datasets/mahdieizadpanah/sapienza-university-mobile-palmprint-databasesmpd 
 
