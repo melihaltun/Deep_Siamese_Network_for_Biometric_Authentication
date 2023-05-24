@@ -22,4 +22,4 @@ There are five Python script files each with a specific task. They should be exe
 The model achieves 96.0% accuracy with a precision rate of 93.8% and a recall rate of 98.6% after 48 epochs. 
 Utilizing GPU is recommended. Due to model complexity, a single epoch with CPU may last well over an hour. On the other hand, even a modest graphics card can speed up the training by 15 to 20 times. 
 
-A combination of Tensorflow 2.10.0, CUDA 11.2, CUDNN 8.8.1 and Zlib works for this model, although other configurations may also be possible. 
+A combination of Python 3.8, Tensorflow 2.10.0, CUDA 11.2, CUDNN 8.8.1 and Zlib works for this model, although other configurations may also be possible. 
