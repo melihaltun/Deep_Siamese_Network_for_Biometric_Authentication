@@ -17,7 +17,7 @@ There are five Python script files each with a specific task. They should be exe
 2) augmentData.py: Resizes each selected image and applies data augmentation by generating variations of each image.
 3) trainTestValSplit.py: Goes through the augmented data set and splits them into training, validation and test images with matching and non-matching image pairs.
 4) getTrainingStats.py: Extracts mean RGB value of the training set, which is used in the pre-processing before model training.
-5) trainModel.py: Loads the training, validation and test sets from the folders formed earlier in step 3. Defines the Siamese neural network model, and trains and tests the model. 
+5) trainModel.py: Loads the training, validation and test sets from the folders formed earlier in step 3. Defines the Siamese neural network model, trains and tests the model. 
 
 The model achieves 96.0% accuracy with a precision rate of 93.8% and a recall rate of 98.6% after 48 epochs. 
 Utilizing GPU is recommended. Due to model complexity, a single epoch with CPU may last well over an hour. On the other hand, even a modest graphics card can speed up the training by 15 to 20 times. 
